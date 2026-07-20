@@ -1,0 +1,11 @@
+services:
+  py-run:
+    container_name: py-run
+    image: ghcr.io/codinv/py-run
+    network_mode: bridge
+    volumes:
+      - ./:/app
+    environment:
+      - TZ=Europe/Moscow
+      - PY_SCRIPT=./myscript.py
+    restart: unless-stopped
