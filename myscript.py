@@ -1,1 +1,1 @@
-print('Hello!\nChange "/myscript.py" as you need.')
+print('Hello!\nEdit "data/myscript.py" and "data/requirements.txt" as you need.')
